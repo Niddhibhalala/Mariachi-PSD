@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Roboto";
     list-style: none;
+
 }
 
 @font-face {
@@ -19,6 +20,10 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 .posab {
@@ -86,8 +91,8 @@
 
 /* Navbar start*/
 .navbar ul li {
-    Display: block;
-    margin: 0 auto;
+    Display: inline-block;
+    /* margin: 0 auto; */
     padding: 20px 15px;
     text-align: center;
 }
@@ -252,6 +257,9 @@ button,
 }
 
 .aboutMarichi h5 {
+    /* font-size: 4rem; */
+    letter-spacing: 0.1rem;
+    font-weight: 600;
     letter-spacing: 0.3rem;
     margin: 20px 0;
 }
@@ -385,7 +393,6 @@ button,
     font-size: 2rem;
     padding: 15px 10px;
 }
-
 /* sec4 end */
 
 /* sec5 start */
